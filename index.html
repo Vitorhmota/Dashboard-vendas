@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard de Vendas</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #f8fafc;
+    --card-bg: #ffffff;
+    --card-border: #e2e8f0;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --accent-light: rgba(37, 99, 235, 0.08);
+    --border: #e2e8f0;
+    --input-bg: #ffffff;
+    --table-header: #f1f5f9;
+    --table-hover: #f8fafc;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
+    --badge-eletronicos-bg: #dbeafe;
+    --badge-eletronicos-text: #1e40af;
+    --badge-moveis-bg: #fef3c7;
+    --badge-moveis-text: #92400e;
+    --badge-papelaria-bg: #d1fae5;
+    --badge-papelaria-text: #065f46;
+  }
+
+  [data-theme="dark"] {
+    --bg: #0b1120;
+    --card-bg: #1e293b;
+    --card-border: #334155;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --accent: #3b82f6;
+    --accent-hover: #60a5fa;
+    --accent-light: rgba(59, 130, 246, 0.15);
+    --border: #334155;
+    --input-bg: #0f172a;
+    --table-header: #0f172a;
+    --table-hover: #26354a;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+    --badge-eletronicos-bg: rgba(30, 64, 175, 0.4);
+    --badge-eletronicos-text: #93c5fd;
+    --badge-moveis-bg: rgba(146, 64, 14, 0.4);
+    --badge-moveis-text: #fcd34d;
+    --badge-papelaria-bg: rgba(6, 95, 70, 0.4);
+    --badge-papelaria-text: #6ee7b7;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: var(--bg);
+    color: var(--text-main);
+    padding: 24px 32px;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .header-left h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+    letter-spacing: -0.5px;
+  }
+  .header-left .subtitle {
+    color: var(--text-muted);
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Botão de Tema */
+  .theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    padding: 8px 16px;
+    border-radius: 9999px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: all 0.2s ease;
+  }
+  .theme-toggle:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+  }
+
+  /* Barra de Filtros */
+  .filter-bar {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+  }
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+    min-width: 170px;
+  }
+  .filter-group label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .filter-group select,
+  .filter-group input {
+    background: var(--input-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: var(--text-main);
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  .filter-group select:focus,
+  .filter-group input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-light);
+  }
+  .btn-reset {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: flex-end;
+    height: 38px;
+    transition: all 0.2s ease;
+  }
+  .btn-reset:hover {
+    background: var(--accent-light);
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+  .filter-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+  }
+
+  /* KPIs */
+  .kpis {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .kpi-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+  .kpi-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+  }
+  .kpi-card .label {
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .kpi-card .value {
+    font-size: 26px;
+    font-weight: 800;
+    margin-top: 8px;
+    letter-spacing: -0.5px;
+    color: var(--text-main);
+  }
+
+  /* Gráficos */
+  .grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+  @media (max-width: 950px) {
+    .grid { grid-template-columns: 1fr; }
+    body { padding: 16px; }
+  }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+  }
+  .card h2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+    color: var(--text-main);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .chart-container {
+    position: relative;
+    height: 280px;
+    width: 100%;
+  }
+
+  /* Tabela */
+  .table-responsive {
+    overflow-x: auto;
+    border-radius: 8px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    background: var(--table-header);
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+  tbody tr:hover {
+    background: var(--table-hover);
+  }
+  
+  /* Badges de Categoria */
+  .badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 9999px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .badge-eletronicos {
+    background: var(--badge-eletronicos-bg);
+    color: var(--badge-eletronicos-text);
+  }
+  .badge-moveis {
+    background: var(--badge-moveis-bg);
+    color: var(--badge-moveis-text);
+  }
+  .badge-papelaria {
+    background: var(--badge-papelaria-bg);
+    color: var(--badge-papelaria-text);
+  }
+
+  #status {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 24px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <h1>📊 Dashboard de Vendas</h1>
+      <p class="subtitle">Análise gerencial alimentada pelo SQLite (<code>vendas.db</code>)</p>
+    </div>
+    <button class="theme-toggle" id="themeToggle" onclick="alternarTema()" aria-label="Alternar tema claro/escuro">
+      <span id="themeIcon">🌙</span> <span id="themeText">Modo Noturno</span>
+    </button>
+  </header>
+
+  <!-- Barra de Filtros -->
+  <section class="filter-bar">
+    <div class="filter-group">
+      <label for="filtroCategoria">Categoria</label>
+      <select id="filtroCategoria" onchange="aplicarFiltros()">
+        <option value="">Todas as Categorias</option>
+      </select>
+    </div>
+    
+    <div class="filter-group">
+      <label for="filtroPeriodo">Período</label>
+      <select id="filtroPeriodo" onchange="aplicarFiltros()">
+        <option value="todos">Todo o histórico</option>
+        <option value="7">Últimos 7 dias</option>
+        <option value="15">Últimos 15 dias</option>
+        <option value="30" selected>Últimos 30 dias</option>
+      </select>
+    </div>
+
+    <div class="filter-group" style="flex: 1.5;">
+      <label for="buscaProduto">Buscar Produto</label>
+      <input type="text" id="buscaProduto" placeholder="Ex: Notebook, Mouse, Cadeira..." oninput="aplicarFiltros()">
+    </div>
+
+    <button class="btn-reset" onclick="limparFiltros()">Limpar Filtros</button>
+
+    <div class="filter-info">
+      <span id="contadorVendas">Carregando registros...</span>
+      <span id="filtroAtivoTexto"></span>
+    </div>
+  </section>
+
+  <!-- KPIs -->
+  <section class="kpis" id="kpis">
+    <div class="kpi-card">
+      <div class="label">Total Vendido <span>💰</span></div>
+      <div class="value" id="kpiTotal">R$ 0,00</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Qtd. de Vendas <span>📦</span></div>
+      <div class="value" id="kpiQtd">0</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Ticket Médio <span>🎯</span></div>
+      <div class="value" id="kpiTicket">R$ 0,00</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Maior Venda <span>⭐</span></div>
+      <div class="value" id="kpiMaior">R$ 0,00</div>
+    </div>
+  </section>
+
+  <!-- Gráficos -->
+  <section class="grid">
+    <div class="card">
+      <h2>Evolução das Vendas por Dia</h2>
+      <div class="chart-container">
+        <canvas id="chartDia"></canvas>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Vendas por Categoria</h2>
+      <div class="chart-container">
+        <canvas id="chartCategoria"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tabela -->
+  <section class="card">
+    <h2>
+      <span>Vendas Recentes</span>
+      <small style="font-size:12px; font-weight:normal; color:var(--text-muted);" id="tabelaInfo"></small>
+    </h2>
+    <div class="table-responsive">
+      <table>
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Produto</th>
+            <th>Categoria</th>
+            <th>Quantidade</th>
+            <th>Valor Total</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaVendas"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div id="status">Iniciando dashboard...</div>
+
+<script>
+// --- Estado da Aplicação ---
+let dadosCompletos = [];
+let chartDiaInstance = null;
+let chartCategoriaInstance = null;
+
+// --- Formatação de Moeda ---
+function formatarMoeda(valor) {
+  return (Number(valor) || 0).toLocaleString('pt-BR', {
+    style: 'currency',
+    currency: 'BRL'
+  });
+}
+
+// --- Gerenciamento de Tema Diurno / Noturno ---
+function getTemaAtual() {
+  return document.documentElement.getAttribute('data-theme') || 'light';
+}
+
+function aplicarTema(tema) {
+  document.documentElement.setAttribute('data-theme', tema);
+  localStorage.setItem('dashboard_theme', tema);
+  
+  const icon = document.getElementById('themeIcon');
+  const text = document.getElementById('themeText');
+  if (tema === 'dark') {
+    icon.textContent = '☀️';
+    text.textContent = 'Modo Diurno';
+  } else {
+    icon.textContent = '🌙';
+    text.textContent = 'Modo Noturno';
+  }
+
+  atualizarCoresGraficos();
+}
+
+function alternarTema() {
+  const temaAtual = getTemaAtual();
+  aplicarTema(temaAtual === 'dark' ? 'light' : 'dark');
+}
+
+// Configurar tema inicial salvo ou preferência do sistema
+(function inicializarTema() {
+  const salvo = localStorage.getItem('dashboard_theme');
+  if (salvo) {
+    aplicarTema(salvo);
+  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    aplicarTema('dark');
+  } else {
+    aplicarTema('light');
+  }
+})();
+
+function getCoresTema() {
+  const isDark = getTemaAtual() === 'dark';
+  return {
+    textColor: isDark ? '#94a3b8' : '#64748b',
+    gridColor: isDark ? 'rgba(255, 255, 255, 0.08)' : 'rgba(0, 0, 0, 0.06)',
+    accent: isDark ? '#3b82f6' : '#2563eb',
+    accentBg: isDark ? 'rgba(59, 130, 246, 0.15)' : 'rgba(37, 99, 235, 0.1)'
+  };
+}
+
+function atualizarCoresGraficos() {
+  const theme = getCoresTema();
+  
+  if (chartDiaInstance) {
+    chartDiaInstance.options.scales.x.ticks.color = theme.textColor;
+    chartDiaInstance.options.scales.y.ticks.color = theme.textColor;
+    chartDiaInstance.options.scales.x.grid.color = theme.gridColor;
+    chartDiaInstance.options.scales.y.grid.color = theme.gridColor;
+    chartDiaInstance.data.datasets[0].borderColor = theme.accent;
+    chartDiaInstance.data.datasets[0].backgroundColor = theme.accentBg;
+    chartDiaInstance.update();
+  }
+
+  if (chartCategoriaInstance) {
+    chartCategoriaInstance.options.scales.x.ticks.color = theme.textColor;
+    chartCategoriaInstance.options.scales.y.ticks.color = theme.textColor;
+    chartCategoriaInstance.options.scales.x.grid.color = theme.gridColor;
+    chartCategoriaInstance.options.scales.y.grid.color = theme.gridColor;
+    chartCategoriaInstance.update();
+  }
+}
+
+// --- Carregamento de Dados ---
+async function carregarDados() {
+  const status = document.getElementById('status');
+  try {
+    const resp = await fetch('data.json', { cache: 'no-store' });
+    if (!resp.ok) throw new Error('Não foi possível encontrar data.json');
+    const json = await resp.json();
+
+    // Prioriza todas_vendas para habilitar filtros reativos
+    dadosCompletos = json.todas_vendas || json.ultimas_vendas || [];
+
+    povoarSelectCategorias();
+    aplicarFiltros();
+
+    status.innerHTML = `Atualizado em: ${new Date().toLocaleTimeString('pt-BR')} (auto-atualiza a cada 10s)`;
+  } catch (err) {
+    if (window.location.protocol === 'file:') {
+      status.innerHTML = `<span style="color: #dc2626; font-weight: 500;">
+        ⚠️ <strong>Atenção:</strong> O navegador bloqueia a leitura de <code>data.json</code> ao abrir via arquivo local direto (<code>file://</code>).<br>
+        Inicie o servidor rodando: <code>py 03_abrir_dashboard.py</code> ou <code>py -m http.server 8000</code> e acesse <a href="http://localhost:8000/dashboard.html" target="_blank" style="color:var(--accent);">http://localhost:8000/dashboard.html</a>.
+      </span>`;
+    } else {
+      status.textContent = 'Erro ao carregar dados: ' + err.message;
+    }
+  }
+}
+
+// --- Povoar Dropdown de Categorias ---
+function povoarSelectCategorias() {
+  const select = document.getElementById('filtroCategoria');
+  const valorAtual = select.value;
+  const categorias = [...new Set(dadosCompletos.map(v => v.categoria))].sort();
+
+  // Limpa mantendo a opção "Todas"
+  select.innerHTML = '<option value="">Todas as Categorias</option>';
+  categorias.forEach(cat => {
+    const opt = document.createElement('option');
+    opt.value = cat;
+    opt.textContent = cat;
+    if (cat === valorAtual) opt.selected = true;
+    select.appendChild(opt);
+  });
+}
+
+// --- Aplicação de Filtros e Recálculo ---
+function aplicarFiltros() {
+  const catSelecionada = document.getElementById('filtroCategoria').value;
+  const periodoSelecionado = document.getElementById('filtroPeriodo').value;
+  const termoBusca = (document.getElementById('buscaProduto').value || '').trim().toLowerCase();
+
+  // Calcular data de corte se período selecionado
+  let dataCorte = null;
+  if (periodoSelecionado !== 'todos') {
+    const dias = parseInt(periodoSelecionado, 10);
+    // Usar a maior data presente no conjunto de dados como referência de "hoje"
+    const datas = dadosCompletos.map(v => new Date(v.data).getTime());
+    const dataRef = datas.length > 0 ? Math.max(...datas) : Date.now();
+    dataCorte = new Date(dataRef - (dias * 24 * 60 * 60 * 1000));
+  }
+
+  // Filtragem
+  const vendasFiltradas = dadosCompletos.filter(v => {
+    // Filtro categoria
+    if (catSelecionada && v.categoria !== catSelecionada) return false;
+
+    // Filtro período
+    if (dataCorte) {
+      const dataVenda = new Date(v.data);
+      if (dataVenda < dataCorte) return false;
+    }
+
+    // Filtro busca por produto
+    if (termoBusca && !v.produto.toLowerCase().includes(termoBusca)) return false;
+
+    return true;
+  });
+
+  // Atualiza indicadores de contagem
+  const contador = document.getElementById('contadorVendas');
+  contador.textContent = `Exibindo ${vendasFiltradas.length} de ${dadosCompletos.length} vendas`;
+
+  atualizarKPIs(vendasFiltradas);
+  atualizarGraficoDia(vendasFiltradas);
+  atualizarGraficoCategoria(vendasFiltradas);
+  atualizarTabela(vendasFiltradas);
+}
+
+function limparFiltros() {
+  document.getElementById('filtroCategoria').value = '';
+  document.getElementById('filtroPeriodo').value = '30';
+  document.getElementById('buscaProduto').value = '';
+  aplicarFiltros();
+}
+
+// --- Atualização de KPIs ---
+function atualizarKPIs(vendas) {
+  const total = vendas.reduce((acc, v) => acc + (Number(v.valor) || 0), 0);
+  const qtd = vendas.length;
+  const ticketMedio = qtd > 0 ? total / qtd : 0;
+  const maiorVenda = vendas.length > 0 ? Math.max(...vendas.map(v => Number(v.valor) || 0)) : 0;
+
+  document.getElementById('kpiTotal').textContent = formatarMoeda(total);
+  document.getElementById('kpiQtd').textContent = qtd.toLocaleString('pt-BR');
+  document.getElementById('kpiTicket').textContent = formatarMoeda(ticketMedio);
+  document.getElementById('kpiMaior').textContent = formatarMoeda(maiorVenda);
+}
+
+// --- Gráfico de Vendas por Dia ---
+function atualizarGraficoDia(vendas) {
+  // Agrupar por data
+  const porDia = {};
+  vendas.forEach(v => {
+    porDia[v.data] = (porDia[v.data] || 0) + Number(v.valor);
+  });
+
+  const labels = Object.keys(porDia).sort();
+  const valores = labels.map(d => Math.round(porDia[d] * 100) / 100);
+
+  const theme = getCoresTema();
+
+  if (chartDiaInstance) {
+    chartDiaInstance.data.labels = labels;
+    chartDiaInstance.data.datasets[0].data = valores;
+    chartDiaInstance.update();
+  } else {
+    const ctx = document.getElementById('chartDia');
+    chartDiaInstance = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Total (R$)',
+          data: valores,
+          borderColor: theme.accent,
+          backgroundColor: theme.accentBg,
+          fill: true,
+          tension: 0.35,
+          pointRadius: 3,
+          pointHoverRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => `Vendas: ${formatarMoeda(ctx.parsed.y)}`
+            }
+          }
+        },
+        scales: {
+          x: {
+            ticks: { color: theme.textColor, font: { size: 11 } },
+            grid: { color: theme.gridColor }
+          },
+          y: {
+            ticks: {
+              color: theme.textColor,
+              font: { size: 11 },
+              callback: (v) => 'R$ ' + v.toLocaleString('pt-BR')
+            },
+            grid: { color: theme.gridColor }
+          }
+        }
+      }
+    });
+  }
+}
+
+// --- Gráfico de Vendas por Categoria ---
+function atualizarGraficoCategoria(vendas) {
+  const porCat = {};
+  vendas.forEach(v => {
+    porCat[v.categoria] = (porCat[v.categoria] || 0) + Number(v.valor);
+  });
+
+  const categorias = Object.keys(porCat).sort((a, b) => porCat[b] - porCat[a]);
+  const valores = categorias.map(c => Math.round(porCat[c] * 100) / 100);
+
+  // Paleta de cores para categorias
+  const paletaCores = {
+    'Eletrônicos': '#3b82f6',
+    'Móveis': '#f59e0b',
+    'Papelaria': '#10b981'
+  };
+  const coresBarras = categorias.map(c => paletaCores[c] || '#8b5cf6');
+
+  const theme = getCoresTema();
+
+  if (chartCategoriaInstance) {
+    chartCategoriaInstance.data.labels = categorias;
+    chartCategoriaInstance.data.datasets[0].data = valores;
+    chartCategoriaInstance.data.datasets[0].backgroundColor = coresBarras;
+    chartCategoriaInstance.update();
+  } else {
+    const ctx = document.getElementById('chartCategoria');
+    chartCategoriaInstance = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: categorias,
+        datasets: [{
+          label: 'Total (R$)',
+          data: valores,
+          backgroundColor: coresBarras,
+          borderRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => `Total: ${formatarMoeda(ctx.parsed.y)}`
+            }
+          }
+        },
+        scales: {
+          x: {
+            ticks: { color: theme.textColor, font: { size: 12, weight: '600' } },
+            grid: { display: false }
+          },
+          y: {
+            ticks: {
+              color: theme.textColor,
+              font: { size: 11 },
+              callback: (v) => 'R$ ' + v.toLocaleString('pt-BR')
+            },
+            grid: { color: theme.gridColor }
+          }
+        }
+      }
+    });
+  }
+}
+
+// --- Tabela de Vendas ---
+function obterClasseBadge(categoria) {
+  const cat = (categoria || '').toLowerCase();
+  if (cat.includes('eletr')) return 'badge-eletronicos';
+  if (cat.includes('móv') || cat.includes('mov')) return 'badge-moveis';
+  if (cat.includes('papel')) return 'badge-papelaria';
+  return '';
+}
+
+function atualizarTabela(vendas) {
+  const tbody = document.getElementById('tabelaVendas');
+  const info = document.getElementById('tabelaInfo');
+
+  if (vendas.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="5" style="text-align:center; padding: 24px; color: var(--text-muted);">Nenhuma venda encontrada para os filtros selecionados.</td></tr>`;
+    info.textContent = '';
+    return;
+  }
+
+  // Ordenar por data decrescente
+  const ordenadas = [...vendas].sort((a, b) => new Date(b.data) - new Date(a.data));
+  const limite = 25;
+  const exibidas = ordenadas.slice(0, limite);
+
+  info.textContent = ordenadas.length > limite ? `(Mostrando as ${limite} mais recentes de ${ordenadas.length})` : `(${ordenadas.length} encontradas)`;
+
+  tbody.innerHTML = exibidas.map(v => `
+    <tr>
+      <td>${v.data}</td>
+      <td><strong>${v.produto}</strong></td>
+      <td><span class="badge ${obterClasseBadge(v.categoria)}">${v.categoria}</span></td>
+      <td>${v.quantidade}</td>
+      <td><strong>${formatarMoeda(v.valor)}</strong></td>
+    </tr>
+  `).join('');
+}
+
+// --- Inicialização ---
+carregarDados();
+// Auto-atualização periódica (caso novo dado seja inserido no banco)
+setInterval(carregarDados, 10000);
+</script>
+</body>
+</html>
