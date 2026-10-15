@@ -1,1817 +1,1817 @@
 {
   "kpis": {
-    "total_vendido": 170537.8,
+    "total_vendido": 167428.54,
     "num_vendas": 200,
-    "ticket_medio": 852.69
+    "ticket_medio": 837.14
   },
   "por_categoria": [
     {
       "categoria": "Eletrônicos",
-      "total": 61718.37
+      "total": 56900.69
     },
     {
       "categoria": "Papelaria",
-      "total": 56503.59
+      "total": 55518.95
     },
     {
       "categoria": "Móveis",
-      "total": 52315.84
+      "total": 55008.9
     }
   ],
   "por_dia": [
     {
-      "data": "2026-09-15",
-      "total": 3465.29
-    },
-    {
       "data": "2026-09-16",
-      "total": 7447.97
+      "total": 4387.74
     },
     {
       "data": "2026-09-17",
-      "total": 11776.31
+      "total": 2533.93
     },
     {
       "data": "2026-09-18",
-      "total": 5367.74
+      "total": 10513.15
     },
     {
       "data": "2026-09-19",
-      "total": 8659.82
+      "total": 10729.45
     },
     {
       "data": "2026-09-20",
-      "total": 4851.13
+      "total": 6367.26
     },
     {
       "data": "2026-09-21",
-      "total": 3032.14
+      "total": 9415.92
     },
     {
       "data": "2026-09-22",
-      "total": 3998.39
+      "total": 4863.57
     },
     {
       "data": "2026-09-23",
-      "total": 6093.31
+      "total": 9219.74
     },
     {
       "data": "2026-09-24",
-      "total": 3369.6
+      "total": 4698.38
     },
     {
       "data": "2026-09-25",
-      "total": 2276.82
+      "total": 4635.2
     },
     {
       "data": "2026-09-26",
-      "total": 6892.51
+      "total": 3539.26
     },
     {
       "data": "2026-09-27",
-      "total": 3095.21
+      "total": 4056.86
     },
     {
       "data": "2026-09-28",
-      "total": 8864.27
+      "total": 3849.56
     },
     {
       "data": "2026-09-29",
-      "total": 8918.75
+      "total": 7041.97
     },
     {
       "data": "2026-09-30",
-      "total": 3485.45
+      "total": 4109.19
     },
     {
       "data": "2026-10-01",
-      "total": 2006.62
+      "total": 6394.71
     },
     {
       "data": "2026-10-02",
-      "total": 8551.1
+      "total": 7016.43
     },
     {
       "data": "2026-10-03",
-      "total": 6954.54
+      "total": 1072.46
     },
     {
       "data": "2026-10-04",
-      "total": 5970.26
+      "total": 2008.19
     },
     {
       "data": "2026-10-05",
-      "total": 3744.38
+      "total": 7342.97
     },
     {
       "data": "2026-10-06",
-      "total": 11036.09
+      "total": 4440.41
     },
     {
       "data": "2026-10-07",
-      "total": 5299.66
+      "total": 6229.94
     },
     {
       "data": "2026-10-08",
-      "total": 8822.52
+      "total": 2606.48
     },
     {
       "data": "2026-10-09",
-      "total": 5796.85
+      "total": 3820.54
     },
     {
       "data": "2026-10-10",
-      "total": 4642.73
+      "total": 7759.66
     },
     {
       "data": "2026-10-11",
-      "total": 2594.24
+      "total": 5884.92
     },
     {
       "data": "2026-10-12",
-      "total": 4659.86
+      "total": 3574.85
     },
     {
       "data": "2026-10-13",
-      "total": 6471.93
+      "total": 2852.6
     },
     {
       "data": "2026-10-14",
-      "total": 2392.31
+      "total": 7603.24
+    },
+    {
+      "data": "2026-10-15",
+      "total": 8859.96
     }
   ],
   "ultimas_vendas": [
     {
-      "data": "2026-10-14",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 1272.08,
-      "quantidade": 4
-    },
-    {
-      "data": "2026-10-14",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1120.23,
-      "quantidade": 3
-    },
-    {
-      "data": "2026-10-13",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 107.32,
-      "quantidade": 4
-    },
-    {
-      "data": "2026-10-13",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1366.71,
-      "quantidade": 3
-    },
-    {
-      "data": "2026-10-13",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 888.86,
-      "quantidade": 2
-    },
-    {
-      "data": "2026-10-13",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 461.98,
-      "quantidade": 2
-    },
-    {
-      "data": "2026-10-13",
+      "data": "2026-10-15",
       "produto": "Caderno",
       "categoria": "Papelaria",
-      "valor": 210.08,
-      "quantidade": 2
+      "valor": 1256.01,
+      "quantidade": 3
     },
     {
-      "data": "2026-10-13",
+      "data": "2026-10-15",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 1304.04,
+      "quantidade": 4
+    },
+    {
+      "data": "2026-10-15",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 1956.28,
+      "quantidade": 4
+    },
+    {
+      "data": "2026-10-15",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 386.31000000000006,
+      "quantidade": 3
+    },
+    {
+      "data": "2026-10-15",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 981.0899999999999,
+      "quantidade": 3
+    },
+    {
+      "data": "2026-10-15",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 92.30000000000001,
+      "quantidade": 5
+    },
+    {
+      "data": "2026-10-15",
       "produto": "Mouse",
       "categoria": "Eletrônicos",
-      "valor": 386.72,
-      "quantidade": 2
+      "valor": 1308.45,
+      "quantidade": 5
     },
     {
-      "data": "2026-10-13",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 268.25,
-      "quantidade": 1
-    },
-    {
-      "data": "2026-10-13",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 813.36,
+      "data": "2026-10-15",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 437.54999999999995,
       "quantidade": 3
+    },
+    {
+      "data": "2026-10-15",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 1137.93,
+      "quantidade": 3
+    },
+    {
+      "data": "2026-10-14",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 2091.3,
+      "quantidade": 5
     }
   ],
   "todas_vendas": [
     {
-      "id": 132,
-      "data": "2026-10-14",
+      "id": 195,
+      "data": "2026-10-15",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 1256.01,
+      "quantidade": 3
+    },
+    {
+      "id": 192,
+      "data": "2026-10-15",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 1304.04,
+      "quantidade": 4
+    },
+    {
+      "id": 190,
+      "data": "2026-10-15",
       "produto": "Cadeira",
       "categoria": "Móveis",
-      "valor": 1272.08,
+      "valor": 1956.28,
       "quantidade": 4
     },
     {
-      "id": 24,
+      "id": 142,
+      "data": "2026-10-15",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 386.31000000000006,
+      "quantidade": 3
+    },
+    {
+      "id": 63,
+      "data": "2026-10-15",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 981.0899999999999,
+      "quantidade": 3
+    },
+    {
+      "id": 55,
+      "data": "2026-10-15",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 92.30000000000001,
+      "quantidade": 5
+    },
+    {
+      "id": 50,
+      "data": "2026-10-15",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 1308.45,
+      "quantidade": 5
+    },
+    {
+      "id": 13,
+      "data": "2026-10-15",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 437.54999999999995,
+      "quantidade": 3
+    },
+    {
+      "id": 4,
+      "data": "2026-10-15",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 1137.93,
+      "quantidade": 3
+    },
+    {
+      "id": 200,
       "data": "2026-10-14",
-      "produto": "Caneta",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 2091.3,
+      "quantidade": 5
+    },
+    {
+      "id": 184,
+      "data": "2026-10-14",
+      "produto": "Caderno",
       "categoria": "Papelaria",
-      "valor": 1120.23,
-      "quantidade": 3
-    },
-    {
-      "id": 171,
-      "data": "2026-10-13",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 107.32,
-      "quantidade": 4
-    },
-    {
-      "id": 168,
-      "data": "2026-10-13",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1366.71,
-      "quantidade": 3
-    },
-    {
-      "id": 166,
-      "data": "2026-10-13",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 888.86,
+      "valor": 693.98,
       "quantidade": 2
     },
     {
-      "id": 121,
+      "id": 182,
+      "data": "2026-10-14",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 1593.08,
+      "quantidade": 4
+    },
+    {
+      "id": 164,
+      "data": "2026-10-14",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 1195.2,
+      "quantidade": 5
+    },
+    {
+      "id": 73,
+      "data": "2026-10-14",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 1865.68,
+      "quantidade": 4
+    },
+    {
+      "id": 43,
+      "data": "2026-10-14",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 164.0,
+      "quantidade": 4
+    },
+    {
+      "id": 144,
       "data": "2026-10-13",
-      "produto": "Mesa",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 566.36,
+      "quantidade": 4
+    },
+    {
+      "id": 129,
+      "data": "2026-10-13",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 1954.6000000000001,
+      "quantidade": 5
+    },
+    {
+      "id": 124,
+      "data": "2026-10-13",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 331.64,
+      "quantidade": 4
+    },
+    {
+      "id": 187,
+      "data": "2026-10-12",
+      "produto": "Cadeira",
       "categoria": "Móveis",
-      "valor": 461.98,
+      "valor": 254.0,
+      "quantidade": 1
+    },
+    {
+      "id": 104,
+      "data": "2026-10-12",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 919.92,
       "quantidade": 2
     },
     {
       "id": 84,
-      "data": "2026-10-13",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 210.08,
-      "quantidade": 2
-    },
-    {
-      "id": 49,
-      "data": "2026-10-13",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 386.72,
-      "quantidade": 2
-    },
-    {
-      "id": 37,
-      "data": "2026-10-13",
+      "data": "2026-10-12",
       "produto": "Cadeira",
       "categoria": "Móveis",
-      "valor": 268.25,
-      "quantidade": 1
-    },
-    {
-      "id": 27,
-      "data": "2026-10-13",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 813.36,
+      "valor": 1373.1299999999999,
       "quantidade": 3
     },
     {
-      "id": 13,
-      "data": "2026-10-13",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 1968.65,
-      "quantidade": 5
-    },
-    {
-      "id": 185,
-      "data": "2026-10-12",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 288.73,
-      "quantidade": 1
-    },
-    {
-      "id": 98,
+      "id": 17,
       "data": "2026-10-12",
       "produto": "Notebook",
       "categoria": "Eletrônicos",
-      "valor": 492.29999999999995,
+      "valor": 39.78,
       "quantidade": 3
     },
     {
-      "id": 92,
+      "id": 9,
+      "data": "2026-10-12",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 67.22,
+      "quantidade": 2
+    },
+    {
+      "id": 3,
       "data": "2026-10-12",
       "produto": "Cadeira",
       "categoria": "Móveis",
-      "valor": 888.2,
-      "quantidade": 4
-    },
-    {
-      "id": 42,
-      "data": "2026-10-12",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 1351.9499999999998,
+      "valor": 920.8,
       "quantidade": 5
     },
     {
-      "id": 29,
-      "data": "2026-10-12",
+      "id": 188,
+      "data": "2026-10-11",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 517.68,
+      "quantidade": 2
+    },
+    {
+      "id": 171,
+      "data": "2026-10-11",
       "produto": "Notebook",
       "categoria": "Eletrônicos",
-      "valor": 1638.68,
+      "valor": 327.25,
+      "quantidade": 1
+    },
+    {
+      "id": 167,
+      "data": "2026-10-11",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 1171.88,
       "quantidade": 4
     },
     {
       "id": 141,
       "data": "2026-10-11",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 818.6,
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 484.84,
       "quantidade": 2
     },
     {
-      "id": 110,
+      "id": 33,
       "data": "2026-10-11",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 701.01,
-      "quantidade": 3
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 1724.8500000000001,
+      "quantidade": 5
     },
     {
-      "id": 70,
-      "data": "2026-10-11",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 106.59,
-      "quantidade": 3
-    },
-    {
-      "id": 12,
+      "id": 27,
       "data": "2026-10-11",
       "produto": "Mesa",
       "categoria": "Móveis",
-      "valor": 968.04,
+      "valor": 219.89999999999998,
       "quantidade": 3
     },
     {
-      "id": 167,
-      "data": "2026-10-10",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 359.79,
+      "id": 26,
+      "data": "2026-10-11",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 39.59,
       "quantidade": 1
     },
     {
-      "id": 153,
+      "id": 22,
+      "data": "2026-10-11",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 1398.93,
+      "quantidade": 3
+    },
+    {
+      "id": 166,
       "data": "2026-10-10",
       "produto": "Notebook",
       "categoria": "Eletrônicos",
-      "valor": 1309.26,
-      "quantidade": 3
+      "valor": 1819.6000000000001,
+      "quantidade": 5
     },
     {
-      "id": 90,
+      "id": 123,
+      "data": "2026-10-10",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 1998.0500000000002,
+      "quantidade": 5
+    },
+    {
+      "id": 115,
+      "data": "2026-10-10",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 903.76,
+      "quantidade": 4
+    },
+    {
+      "id": 98,
       "data": "2026-10-10",
       "produto": "Caderno",
       "categoria": "Papelaria",
-      "valor": 732.9300000000001,
+      "valor": 695.58,
       "quantidade": 3
     },
     {
-      "id": 54,
+      "id": 36,
       "data": "2026-10-10",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 1419.51,
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 1259.6100000000001,
       "quantidade": 3
-    },
-    {
-      "id": 30,
-      "data": "2026-10-10",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 697.2,
-      "quantidade": 2
     },
     {
       "id": 5,
       "data": "2026-10-10",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 124.04,
-      "quantidade": 2
-    },
-    {
-      "id": 190,
-      "data": "2026-10-09",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 372.03000000000003,
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 1083.06,
       "quantidade": 3
     },
     {
-      "id": 188,
+      "id": 172,
+      "data": "2026-10-09",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 1058.64,
+      "quantidade": 4
+    },
+    {
+      "id": 93,
       "data": "2026-10-09",
       "produto": "Mesa",
       "categoria": "Móveis",
-      "valor": 875.98,
-      "quantidade": 2
+      "valor": 1497.96,
+      "quantidade": 4
     },
     {
-      "id": 170,
-      "data": "2026-10-09",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 846.1500000000001,
-      "quantidade": 3
-    },
-    {
-      "id": 142,
-      "data": "2026-10-09",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 1937.8999999999999,
-      "quantidade": 5
-    },
-    {
-      "id": 64,
-      "data": "2026-10-09",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 455.94,
-      "quantidade": 2
-    },
-    {
-      "id": 51,
-      "data": "2026-10-09",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 776.35,
-      "quantidade": 5
-    },
-    {
-      "id": 34,
+      "id": 91,
       "data": "2026-10-09",
       "produto": "Mouse",
       "categoria": "Eletrônicos",
-      "valor": 532.5,
+      "valor": 214.74,
+      "quantidade": 3
+    },
+    {
+      "id": 60,
+      "data": "2026-10-09",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 292.9,
       "quantidade": 2
     },
     {
-      "id": 140,
+      "id": 58,
+      "data": "2026-10-09",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 641.9399999999999,
+      "quantidade": 3
+    },
+    {
+      "id": 23,
+      "data": "2026-10-09",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 114.35999999999999,
+      "quantidade": 3
+    },
+    {
+      "id": 165,
       "data": "2026-10-08",
       "produto": "Cadeira",
       "categoria": "Móveis",
-      "valor": 1218.33,
+      "valor": 600.48,
       "quantidade": 3
     },
     {
       "id": 130,
       "data": "2026-10-08",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 122.84,
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 475.54,
       "quantidade": 1
     },
     {
-      "id": 124,
+      "id": 72,
       "data": "2026-10-08",
-      "produto": "Cadeira",
+      "produto": "Mesa",
       "categoria": "Móveis",
-      "valor": 135.32,
+      "valor": 392.79,
+      "quantidade": 3
+    },
+    {
+      "id": 39,
+      "data": "2026-10-08",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 843.1,
       "quantidade": 2
     },
     {
-      "id": 107,
+      "id": 1,
       "data": "2026-10-08",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1551.52,
-      "quantidade": 4
-    },
-    {
-      "id": 106,
-      "data": "2026-10-08",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 2494.75,
-      "quantidade": 5
-    },
-    {
-      "id": 87,
-      "data": "2026-10-08",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 362.52,
-      "quantidade": 4
-    },
-    {
-      "id": 67,
-      "data": "2026-10-08",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 1461.6,
-      "quantidade": 5
-    },
-    {
-      "id": 62,
-      "data": "2026-10-08",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 1475.64,
-      "quantidade": 4
-    },
-    {
-      "id": 194,
-      "data": "2026-10-07",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1911.32,
-      "quantidade": 4
-    },
-    {
-      "id": 113,
-      "data": "2026-10-07",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 972.68,
-      "quantidade": 4
-    },
-    {
-      "id": 112,
-      "data": "2026-10-07",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1455.3600000000001,
-      "quantidade": 3
-    },
-    {
-      "id": 101,
-      "data": "2026-10-07",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 960.3000000000001,
-      "quantidade": 3
-    },
-    {
-      "id": 198,
-      "data": "2026-10-06",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 2104.45,
-      "quantidade": 5
-    },
-    {
-      "id": 193,
-      "data": "2026-10-06",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 380.09,
-      "quantidade": 1
-    },
-    {
-      "id": 187,
-      "data": "2026-10-06",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 1551.6,
-      "quantidade": 5
-    },
-    {
-      "id": 184,
-      "data": "2026-10-06",
       "produto": "Mouse",
       "categoria": "Eletrônicos",
-      "valor": 830.0699999999999,
+      "valor": 294.57,
       "quantidade": 3
-    },
-    {
-      "id": 180,
-      "data": "2026-10-06",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 1104.08,
-      "quantidade": 4
-    },
-    {
-      "id": 150,
-      "data": "2026-10-06",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 429.15,
-      "quantidade": 5
-    },
-    {
-      "id": 149,
-      "data": "2026-10-06",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 1246.75,
-      "quantidade": 5
-    },
-    {
-      "id": 116,
-      "data": "2026-10-06",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 917.28,
-      "quantidade": 3
-    },
-    {
-      "id": 114,
-      "data": "2026-10-06",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 216.32999999999998,
-      "quantidade": 3
-    },
-    {
-      "id": 102,
-      "data": "2026-10-06",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 1896.9,
-      "quantidade": 5
-    },
-    {
-      "id": 80,
-      "data": "2026-10-06",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 140.95,
-      "quantidade": 1
-    },
-    {
-      "id": 26,
-      "data": "2026-10-06",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 115.96,
-      "quantidade": 4
-    },
-    {
-      "id": 14,
-      "data": "2026-10-06",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 102.48,
-      "quantidade": 2
     },
     {
       "id": 151,
-      "data": "2026-10-05",
+      "data": "2026-10-07",
       "produto": "Notebook",
       "categoria": "Eletrônicos",
-      "valor": 368.21999999999997,
-      "quantidade": 3
-    },
-    {
-      "id": 127,
-      "data": "2026-10-05",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 556.16,
-      "quantidade": 2
-    },
-    {
-      "id": 93,
-      "data": "2026-10-05",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 427.74,
-      "quantidade": 3
-    },
-    {
-      "id": 66,
-      "data": "2026-10-05",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 767.16,
-      "quantidade": 4
-    },
-    {
-      "id": 47,
-      "data": "2026-10-05",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 1625.1,
+      "valor": 2280.4,
       "quantidade": 5
     },
     {
-      "id": 134,
-      "data": "2026-10-04",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 1409.85,
+      "id": 122,
+      "data": "2026-10-07",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 993.24,
       "quantidade": 3
     },
     {
       "id": 103,
-      "data": "2026-10-04",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 2024.4499999999998,
+      "data": "2026-10-07",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 1824.7,
       "quantidade": 5
     },
     {
-      "id": 43,
-      "data": "2026-10-04",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 602.74,
-      "quantidade": 2
-    },
-    {
-      "id": 15,
-      "data": "2026-10-04",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 1604.32,
-      "quantidade": 4
-    },
-    {
-      "id": 11,
-      "data": "2026-10-04",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 328.9,
-      "quantidade": 5
-    },
-    {
-      "id": 100,
-      "data": "2026-10-03",
-      "produto": "Caneta",
+      "id": 96,
+      "data": "2026-10-07",
+      "produto": "Caderno",
       "categoria": "Papelaria",
-      "valor": 374.78,
-      "quantidade": 2
+      "valor": 1131.6,
+      "quantidade": 3
     },
     {
-      "id": 85,
-      "data": "2026-10-03",
+      "id": 158,
+      "data": "2026-10-06",
       "produto": "Cadeira",
       "categoria": "Móveis",
-      "valor": 2336.9,
-      "quantidade": 5
-    },
-    {
-      "id": 74,
-      "data": "2026-10-03",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 161.88,
-      "quantidade": 2
-    },
-    {
-      "id": 71,
-      "data": "2026-10-03",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 185.32,
+      "valor": 38.67,
       "quantidade": 1
     },
     {
-      "id": 63,
-      "data": "2026-10-03",
-      "produto": "Cadeira",
+      "id": 154,
+      "data": "2026-10-06",
+      "produto": "Mesa",
       "categoria": "Móveis",
-      "valor": 1063.24,
+      "valor": 1024.88,
       "quantidade": 4
     },
     {
-      "id": 41,
-      "data": "2026-10-03",
+      "id": 139,
+      "data": "2026-10-06",
       "produto": "Mouse",
       "categoria": "Eletrônicos",
-      "valor": 178.28,
-      "quantidade": 4
+      "valor": 95.93,
+      "quantidade": 1
     },
     {
-      "id": 36,
-      "data": "2026-10-03",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 87.32,
-      "quantidade": 4
+      "id": 133,
+      "data": "2026-10-06",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 1652.0,
+      "quantidade": 5
+    },
+    {
+      "id": 81,
+      "data": "2026-10-06",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 193.2,
+      "quantidade": 1
+    },
+    {
+      "id": 49,
+      "data": "2026-10-06",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 435.88,
+      "quantidade": 2
     },
     {
       "id": 19,
-      "data": "2026-10-03",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 1065.25,
-      "quantidade": 5
-    },
-    {
-      "id": 8,
-      "data": "2026-10-03",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 510.6,
-      "quantidade": 2
-    },
-    {
-      "id": 6,
-      "data": "2026-10-03",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 132.15,
-      "quantidade": 5
-    },
-    {
-      "id": 2,
-      "data": "2026-10-03",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 858.82,
-      "quantidade": 2
-    },
-    {
-      "id": 176,
-      "data": "2026-10-02",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 632.76,
-      "quantidade": 3
-    },
-    {
-      "id": 169,
-      "data": "2026-10-02",
+      "data": "2026-10-06",
       "produto": "Mouse",
       "categoria": "Eletrônicos",
-      "valor": 1946.2,
-      "quantidade": 4
-    },
-    {
-      "id": 165,
-      "data": "2026-10-02",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 963.1999999999999,
+      "valor": 999.85,
       "quantidade": 5
     },
     {
-      "id": 156,
-      "data": "2026-10-02",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 353.21999999999997,
-      "quantidade": 3
-    },
-    {
-      "id": 155,
-      "data": "2026-10-02",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 1689.25,
-      "quantidade": 5
-    },
-    {
-      "id": 129,
-      "data": "2026-10-02",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 19.53,
+      "id": 180,
+      "data": "2026-10-05",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 135.73,
       "quantidade": 1
     },
     {
-      "id": 94,
-      "data": "2026-10-02",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 964.28,
-      "quantidade": 4
-    },
-    {
-      "id": 56,
-      "data": "2026-10-02",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 777.54,
-      "quantidade": 3
-    },
-    {
-      "id": 52,
-      "data": "2026-10-02",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 674.04,
-      "quantidade": 4
-    },
-    {
-      "id": 7,
-      "data": "2026-10-02",
+      "id": 145,
+      "data": "2026-10-05",
       "produto": "Caderno",
       "categoria": "Papelaria",
-      "valor": 531.08,
+      "valor": 178.46,
       "quantidade": 2
     },
     {
-      "id": 162,
-      "data": "2026-10-01",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 580.12,
-      "quantidade": 2
-    },
-    {
-      "id": 60,
-      "data": "2026-10-01",
+      "id": 140,
+      "data": "2026-10-05",
       "produto": "Cadeira",
       "categoria": "Móveis",
-      "valor": 329.25,
+      "valor": 424.42,
+      "quantidade": 2
+    },
+    {
+      "id": 126,
+      "data": "2026-10-05",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 2049.95,
       "quantidade": 5
     },
     {
-      "id": 22,
-      "data": "2026-10-01",
+      "id": 89,
+      "data": "2026-10-05",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 138.5,
+      "quantidade": 2
+    },
+    {
+      "id": 67,
+      "data": "2026-10-05",
       "produto": "Caderno",
       "categoria": "Papelaria",
-      "valor": 1097.25,
+      "valor": 418.11,
+      "quantidade": 1
+    },
+    {
+      "id": 65,
+      "data": "2026-10-05",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 68.3,
+      "quantidade": 2
+    },
+    {
+      "id": 42,
+      "data": "2026-10-05",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 1298.16,
+      "quantidade": 4
+    },
+    {
+      "id": 38,
+      "data": "2026-10-05",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 759.56,
+      "quantidade": 4
+    },
+    {
+      "id": 8,
+      "data": "2026-10-05",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 61.22,
+      "quantidade": 2
+    },
+    {
+      "id": 7,
+      "data": "2026-10-05",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 1810.56,
+      "quantidade": 4
+    },
+    {
+      "id": 149,
+      "data": "2026-10-04",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 359.26,
+      "quantidade": 1
+    },
+    {
+      "id": 75,
+      "data": "2026-10-04",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 1176.4,
+      "quantidade": 5
+    },
+    {
+      "id": 56,
+      "data": "2026-10-04",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 264.69,
+      "quantidade": 1
+    },
+    {
+      "id": 20,
+      "data": "2026-10-04",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 207.84,
+      "quantidade": 1
+    },
+    {
+      "id": 62,
+      "data": "2026-10-03",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 282.05,
+      "quantidade": 1
+    },
+    {
+      "id": 16,
+      "data": "2026-10-03",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 790.4100000000001,
       "quantidade": 3
     },
     {
       "id": 181,
-      "data": "2026-09-30",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 518.62,
-      "quantidade": 2
-    },
-    {
-      "id": 68,
-      "data": "2026-09-30",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1204.29,
-      "quantidade": 3
-    },
-    {
-      "id": 59,
-      "data": "2026-09-30",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 891.64,
-      "quantidade": 4
-    },
-    {
-      "id": 55,
-      "data": "2026-09-30",
+      "data": "2026-10-02",
       "produto": "Cadeira",
       "categoria": "Móveis",
-      "valor": 870.9000000000001,
+      "valor": 624.45,
       "quantidade": 5
-    },
-    {
-      "id": 200,
-      "data": "2026-09-29",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 318.0,
-      "quantidade": 1
-    },
-    {
-      "id": 197,
-      "data": "2026-09-29",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 362.49,
-      "quantidade": 3
     },
     {
       "id": 175,
-      "data": "2026-09-29",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 2406.95,
+      "data": "2026-10-02",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 625.8,
       "quantidade": 5
     },
     {
-      "id": 161,
-      "data": "2026-09-29",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 514.55,
-      "quantidade": 5
-    },
-    {
-      "id": 138,
-      "data": "2026-09-29",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 382.52,
+      "id": 160,
+      "data": "2026-10-02",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 367.79,
       "quantidade": 1
     },
     {
-      "id": 118,
+      "id": 114,
+      "data": "2026-10-02",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 1613.76,
+      "quantidade": 4
+    },
+    {
+      "id": 68,
+      "data": "2026-10-02",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 2232.3500000000004,
+      "quantidade": 5
+    },
+    {
+      "id": 54,
+      "data": "2026-10-02",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 965.78,
+      "quantidade": 2
+    },
+    {
+      "id": 15,
+      "data": "2026-10-02",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 586.5,
+      "quantidade": 2
+    },
+    {
+      "id": 189,
+      "data": "2026-10-01",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 747.32,
+      "quantidade": 2
+    },
+    {
+      "id": 174,
+      "data": "2026-10-01",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 1783.1,
+      "quantidade": 5
+    },
+    {
+      "id": 148,
+      "data": "2026-10-01",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 1357.3799999999999,
+      "quantidade": 3
+    },
+    {
+      "id": 138,
+      "data": "2026-10-01",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 399.42,
+      "quantidade": 1
+    },
+    {
+      "id": 117,
+      "data": "2026-10-01",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 956.56,
+      "quantidade": 2
+    },
+    {
+      "id": 83,
+      "data": "2026-10-01",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 227.69,
+      "quantidade": 1
+    },
+    {
+      "id": 74,
+      "data": "2026-10-01",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 923.24,
+      "quantidade": 2
+    },
+    {
+      "id": 193,
+      "data": "2026-09-30",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 865.7,
+      "quantidade": 2
+    },
+    {
+      "id": 128,
+      "data": "2026-09-30",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 234.56,
+      "quantidade": 2
+    },
+    {
+      "id": 94,
+      "data": "2026-09-30",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 310.55,
+      "quantidade": 1
+    },
+    {
+      "id": 44,
+      "data": "2026-09-30",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 2366.3999999999996,
+      "quantidade": 5
+    },
+    {
+      "id": 32,
+      "data": "2026-09-30",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 331.98,
+      "quantidade": 3
+    },
+    {
+      "id": 199,
+      "data": "2026-09-29",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 467.16,
+      "quantidade": 4
+    },
+    {
+      "id": 152,
+      "data": "2026-09-29",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 434.55,
+      "quantidade": 1
+    },
+    {
+      "id": 113,
+      "data": "2026-09-29",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 554.78,
+      "quantidade": 2
+    },
+    {
+      "id": 110,
       "data": "2026-09-29",
       "produto": "Notebook",
       "categoria": "Eletrônicos",
-      "valor": 1244.2,
+      "valor": 891.78,
+      "quantidade": 2
+    },
+    {
+      "id": 99,
+      "data": "2026-09-29",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 137.79,
+      "quantidade": 3
+    },
+    {
+      "id": 78,
+      "data": "2026-09-29",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 1231.76,
+      "quantidade": 4
+    },
+    {
+      "id": 76,
+      "data": "2026-09-29",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 849.2,
       "quantidade": 5
     },
     {
       "id": 57,
       "data": "2026-09-29",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 1113.15,
+      "quantidade": 5
+    },
+    {
+      "id": 34,
+      "data": "2026-09-29",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 1361.8,
+      "quantidade": 4
+    },
+    {
+      "id": 197,
+      "data": "2026-09-28",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 242.0,
+      "quantidade": 2
+    },
+    {
+      "id": 194,
+      "data": "2026-09-28",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 431.70000000000005,
+      "quantidade": 3
+    },
+    {
+      "id": 173,
+      "data": "2026-09-28",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 193.52,
+      "quantidade": 4
+    },
+    {
+      "id": 135,
+      "data": "2026-09-28",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 668.24,
+      "quantidade": 2
+    },
+    {
+      "id": 121,
+      "data": "2026-09-28",
       "produto": "Notebook",
       "categoria": "Eletrônicos",
-      "valor": 1710.8000000000002,
+      "valor": 645.39,
+      "quantidade": 3
+    },
+    {
+      "id": 41,
+      "data": "2026-09-28",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 701.06,
+      "quantidade": 2
+    },
+    {
+      "id": 40,
+      "data": "2026-09-28",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 967.65,
       "quantidade": 5
+    },
+    {
+      "id": 179,
+      "data": "2026-09-27",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 512.32,
+      "quantidade": 2
+    },
+    {
+      "id": 92,
+      "data": "2026-09-27",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 307.82,
+      "quantidade": 2
+    },
+    {
+      "id": 77,
+      "data": "2026-09-27",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 1403.24,
+      "quantidade": 4
     },
     {
       "id": 46,
-      "data": "2026-09-29",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 128.2,
-      "quantidade": 4
-    },
-    {
-      "id": 16,
-      "data": "2026-09-29",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 1851.04,
-      "quantidade": 4
-    },
-    {
-      "id": 183,
-      "data": "2026-09-28",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 745.52,
-      "quantidade": 4
-    },
-    {
-      "id": 182,
-      "data": "2026-09-28",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1288.75,
-      "quantidade": 5
-    },
-    {
-      "id": 136,
-      "data": "2026-09-28",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 109.11,
+      "data": "2026-09-27",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 112.15,
       "quantidade": 1
     },
     {
-      "id": 105,
-      "data": "2026-09-28",
+      "id": 45,
+      "data": "2026-09-27",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 136.93,
+      "quantidade": 1
+    },
+    {
+      "id": 14,
+      "data": "2026-09-27",
       "produto": "Mouse",
       "categoria": "Eletrônicos",
-      "valor": 1329.92,
+      "valor": 1584.4,
+      "quantidade": 5
+    },
+    {
+      "id": 196,
+      "data": "2026-09-26",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 1333.56,
+      "quantidade": 4
+    },
+    {
+      "id": 157,
+      "data": "2026-09-26",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 213.01,
+      "quantidade": 1
+    },
+    {
+      "id": 143,
+      "data": "2026-09-26",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 116.65,
+      "quantidade": 1
+    },
+    {
+      "id": 108,
+      "data": "2026-09-26",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 305.14,
+      "quantidade": 2
+    },
+    {
+      "id": 106,
+      "data": "2026-09-26",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 80.8,
+      "quantidade": 4
+    },
+    {
+      "id": 88,
+      "data": "2026-09-26",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 929.52,
       "quantidade": 4
     },
     {
       "id": 82,
-      "data": "2026-09-28",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 1457.28,
-      "quantidade": 4
-    },
-    {
-      "id": 77,
-      "data": "2026-09-28",
+      "data": "2026-09-26",
       "produto": "Cadeira",
       "categoria": "Móveis",
-      "valor": 1364.04,
-      "quantidade": 4
-    },
-    {
-      "id": 65,
-      "data": "2026-09-28",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 51.3,
+      "valor": 198.84,
       "quantidade": 1
     },
     {
-      "id": 61,
-      "data": "2026-09-28",
+      "id": 30,
+      "data": "2026-09-26",
       "produto": "Caneta",
       "categoria": "Papelaria",
-      "valor": 2215.75,
-      "quantidade": 5
+      "valor": 361.74,
+      "quantidade": 1
     },
     {
-      "id": 18,
-      "data": "2026-09-28",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 302.6,
-      "quantidade": 5
+      "id": 107,
+      "data": "2026-09-25",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 225.16,
+      "quantidade": 1
     },
     {
-      "id": 158,
-      "data": "2026-09-27",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 180.35,
-      "quantidade": 5
+      "id": 79,
+      "data": "2026-09-25",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 1919.0,
+      "quantidade": 4
     },
     {
-      "id": 154,
-      "data": "2026-09-27",
+      "id": 59,
+      "data": "2026-09-25",
       "produto": "Notebook",
       "categoria": "Eletrônicos",
-      "valor": 915.9300000000001,
-      "quantidade": 3
+      "valor": 224.94,
+      "quantidade": 1
     },
     {
-      "id": 152,
-      "data": "2026-09-27",
+      "id": 29,
+      "data": "2026-09-25",
       "produto": "Mesa",
       "categoria": "Móveis",
-      "valor": 1409.04,
-      "quantidade": 4
-    },
-    {
-      "id": 139,
-      "data": "2026-09-27",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 22.24,
-      "quantidade": 1
-    },
-    {
-      "id": 38,
-      "data": "2026-09-27",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 567.65,
+      "valor": 2266.1000000000004,
       "quantidade": 5
-    },
-    {
-      "id": 199,
-      "data": "2026-09-26",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 175.46,
-      "quantidade": 2
-    },
-    {
-      "id": 172,
-      "data": "2026-09-26",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 129.75,
-      "quantidade": 5
-    },
-    {
-      "id": 164,
-      "data": "2026-09-26",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 194.79000000000002,
-      "quantidade": 3
-    },
-    {
-      "id": 144,
-      "data": "2026-09-26",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 1292.3700000000001,
-      "quantidade": 3
-    },
-    {
-      "id": 109,
-      "data": "2026-09-26",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 1358.0,
-      "quantidade": 4
-    },
-    {
-      "id": 104,
-      "data": "2026-09-26",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 1350.54,
-      "quantidade": 3
-    },
-    {
-      "id": 91,
-      "data": "2026-09-26",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 547.42,
-      "quantidade": 2
-    },
-    {
-      "id": 89,
-      "data": "2026-09-26",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 475.2,
-      "quantidade": 4
-    },
-    {
-      "id": 53,
-      "data": "2026-09-26",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 717.38,
-      "quantidade": 2
-    },
-    {
-      "id": 33,
-      "data": "2026-09-26",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 182.74,
-      "quantidade": 2
-    },
-    {
-      "id": 25,
-      "data": "2026-09-26",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 468.86,
-      "quantidade": 2
-    },
-    {
-      "id": 123,
-      "data": "2026-09-25",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 384.18,
-      "quantidade": 2
-    },
-    {
-      "id": 119,
-      "data": "2026-09-25",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 801.42,
-      "quantidade": 3
-    },
-    {
-      "id": 45,
-      "data": "2026-09-25",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 399.32,
-      "quantidade": 2
-    },
-    {
-      "id": 23,
-      "data": "2026-09-25",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 636.3,
-      "quantidade": 3
-    },
-    {
-      "id": 9,
-      "data": "2026-09-25",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 55.6,
-      "quantidade": 2
-    },
-    {
-      "id": 157,
-      "data": "2026-09-24",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1237.1100000000001,
-      "quantidade": 3
     },
     {
       "id": 125,
       "data": "2026-09-24",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 62.84,
-      "quantidade": 1
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 357.63,
+      "quantidade": 3
     },
     {
-      "id": 111,
+      "id": 102,
+      "data": "2026-09-24",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 857.98,
+      "quantidade": 2
+    },
+    {
+      "id": 87,
+      "data": "2026-09-24",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 416.0,
+      "quantidade": 5
+    },
+    {
+      "id": 69,
+      "data": "2026-09-24",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 198.9,
+      "quantidade": 2
+    },
+    {
+      "id": 51,
+      "data": "2026-09-24",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 995.4000000000001,
+      "quantidade": 3
+    },
+    {
+      "id": 48,
       "data": "2026-09-24",
       "produto": "Cadeira",
       "categoria": "Móveis",
-      "valor": 92.45,
-      "quantidade": 1
+      "valor": 300.03000000000003,
+      "quantidade": 3
     },
     {
-      "id": 32,
+      "id": 35,
+      "data": "2026-09-24",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 767.06,
+      "quantidade": 2
+    },
+    {
+      "id": 31,
+      "data": "2026-09-24",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 620.58,
+      "quantidade": 2
+    },
+    {
+      "id": 10,
       "data": "2026-09-24",
       "produto": "Mouse",
       "categoria": "Eletrônicos",
-      "valor": 1977.2,
-      "quantidade": 4
-    },
-    {
-      "id": 191,
-      "data": "2026-09-23",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 288.16,
-      "quantidade": 4
-    },
-    {
-      "id": 186,
-      "data": "2026-09-23",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 374.20000000000005,
-      "quantidade": 5
+      "valor": 184.8,
+      "quantidade": 2
     },
     {
       "id": 177,
       "data": "2026-09-23",
       "produto": "Mouse",
       "categoria": "Eletrônicos",
-      "valor": 1363.23,
-      "quantidade": 3
-    },
-    {
-      "id": 95,
-      "data": "2026-09-23",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 491.32,
-      "quantidade": 2
-    },
-    {
-      "id": 81,
-      "data": "2026-09-23",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 2119.4,
-      "quantidade": 5
-    },
-    {
-      "id": 44,
-      "data": "2026-09-23",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 1457.0,
+      "valor": 1599.76,
       "quantidade": 4
     },
     {
-      "id": 137,
-      "data": "2026-09-22",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 911.9499999999999,
-      "quantidade": 5
-    },
-    {
-      "id": 128,
-      "data": "2026-09-22",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 828.03,
-      "quantidade": 3
-    },
-    {
-      "id": 122,
-      "data": "2026-09-22",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 1682.5,
-      "quantidade": 5
-    },
-    {
-      "id": 40,
-      "data": "2026-09-22",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 228.27,
-      "quantidade": 3
-    },
-    {
-      "id": 10,
-      "data": "2026-09-22",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 347.64,
+      "id": 161,
+      "data": "2026-09-23",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 13.86,
       "quantidade": 1
-    },
-    {
-      "id": 160,
-      "data": "2026-09-21",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 1561.36,
-      "quantidade": 4
-    },
-    {
-      "id": 145,
-      "data": "2026-09-21",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1090.6999999999998,
-      "quantidade": 5
-    },
-    {
-      "id": 4,
-      "data": "2026-09-21",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 380.08,
-      "quantidade": 2
-    },
-    {
-      "id": 174,
-      "data": "2026-09-20",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 1037.3700000000001,
-      "quantidade": 3
-    },
-    {
-      "id": 69,
-      "data": "2026-09-20",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 601.32,
-      "quantidade": 2
-    },
-    {
-      "id": 35,
-      "data": "2026-09-20",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 1011.84,
-      "quantidade": 4
-    },
-    {
-      "id": 3,
-      "data": "2026-09-20",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 2200.6,
-      "quantidade": 5
-    },
-    {
-      "id": 178,
-      "data": "2026-09-19",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 2041.8000000000002,
-      "quantidade": 5
-    },
-    {
-      "id": 148,
-      "data": "2026-09-19",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 637.9,
-      "quantidade": 2
-    },
-    {
-      "id": 96,
-      "data": "2026-09-19",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 413.45,
-      "quantidade": 5
-    },
-    {
-      "id": 83,
-      "data": "2026-09-19",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 70.97,
-      "quantidade": 1
-    },
-    {
-      "id": 75,
-      "data": "2026-09-19",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 359.85,
-      "quantidade": 3
-    },
-    {
-      "id": 73,
-      "data": "2026-09-19",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 812.65,
-      "quantidade": 5
-    },
-    {
-      "id": 50,
-      "data": "2026-09-19",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 321.5,
-      "quantidade": 2
-    },
-    {
-      "id": 48,
-      "data": "2026-09-19",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 1868.96,
-      "quantidade": 4
-    },
-    {
-      "id": 31,
-      "data": "2026-09-19",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 731.68,
-      "quantidade": 4
-    },
-    {
-      "id": 17,
-      "data": "2026-09-19",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 1401.06,
-      "quantidade": 3
-    },
-    {
-      "id": 163,
-      "data": "2026-09-18",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 767.44,
-      "quantidade": 4
     },
     {
       "id": 147,
-      "data": "2026-09-18",
+      "data": "2026-09-23",
       "produto": "Notebook",
       "categoria": "Eletrônicos",
-      "valor": 1055.85,
-      "quantidade": 5
-    },
-    {
-      "id": 143,
-      "data": "2026-09-18",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 213.93,
-      "quantidade": 1
-    },
-    {
-      "id": 135,
-      "data": "2026-09-18",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 461.32,
-      "quantidade": 2
-    },
-    {
-      "id": 99,
-      "data": "2026-09-18",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 1250.68,
-      "quantidade": 4
-    },
-    {
-      "id": 72,
-      "data": "2026-09-18",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 179.72,
-      "quantidade": 4
-    },
-    {
-      "id": 1,
-      "data": "2026-09-18",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1438.8,
-      "quantidade": 5
-    },
-    {
-      "id": 189,
-      "data": "2026-09-17",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 491.06,
-      "quantidade": 2
-    },
-    {
-      "id": 146,
-      "data": "2026-09-17",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 1331.05,
-      "quantidade": 5
-    },
-    {
-      "id": 133,
-      "data": "2026-09-17",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 2463.85,
-      "quantidade": 5
-    },
-    {
-      "id": 131,
-      "data": "2026-09-17",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 2480.3,
-      "quantidade": 5
-    },
-    {
-      "id": 108,
-      "data": "2026-09-17",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 1325.6,
-      "quantidade": 4
-    },
-    {
-      "id": 76,
-      "data": "2026-09-17",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 2042.2,
-      "quantidade": 5
-    },
-    {
-      "id": 58,
-      "data": "2026-09-17",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 1642.25,
-      "quantidade": 5
-    },
-    {
-      "id": 196,
-      "data": "2026-09-16",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 372.67,
-      "quantidade": 1
-    },
-    {
-      "id": 195,
-      "data": "2026-09-16",
-      "produto": "Cadeira",
-      "categoria": "Móveis",
-      "valor": 95.1,
-      "quantidade": 5
-    },
-    {
-      "id": 192,
-      "data": "2026-09-16",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 940.68,
-      "quantidade": 4
-    },
-    {
-      "id": 159,
-      "data": "2026-09-16",
-      "produto": "Mesa",
-      "categoria": "Móveis",
-      "valor": 256.38,
-      "quantidade": 1
-    },
-    {
-      "id": 126,
-      "data": "2026-09-16",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 22.0,
-      "quantidade": 2
-    },
-    {
-      "id": 117,
-      "data": "2026-09-16",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 302.7,
-      "quantidade": 5
-    },
-    {
-      "id": 88,
-      "data": "2026-09-16",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 551.55,
-      "quantidade": 5
-    },
-    {
-      "id": 86,
-      "data": "2026-09-16",
-      "produto": "Notebook",
-      "categoria": "Eletrônicos",
-      "valor": 1920.35,
-      "quantidade": 5
-    },
-    {
-      "id": 79,
-      "data": "2026-09-16",
-      "produto": "Caderno",
-      "categoria": "Papelaria",
-      "valor": 431.6,
-      "quantidade": 4
-    },
-    {
-      "id": 78,
-      "data": "2026-09-16",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 757.08,
+      "valor": 714.5699999999999,
       "quantidade": 3
     },
     {
-      "id": 39,
-      "data": "2026-09-16",
-      "produto": "Caneta",
-      "categoria": "Papelaria",
-      "valor": 488.5,
+      "id": 146,
+      "data": "2026-09-23",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 2242.6,
       "quantidade": 5
     },
     {
-      "id": 20,
-      "data": "2026-09-16",
+      "id": 137,
+      "data": "2026-09-23",
       "produto": "Mouse",
       "categoria": "Eletrônicos",
-      "valor": 1309.36,
-      "quantidade": 4
+      "valor": 1853.85,
+      "quantidade": 5
     },
     {
-      "id": 179,
-      "data": "2026-09-15",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 1784.84,
-      "quantidade": 4
-    },
-    {
-      "id": 173,
-      "data": "2026-09-15",
-      "produto": "Mouse",
-      "categoria": "Eletrônicos",
-      "valor": 179.23,
+      "id": 116,
+      "data": "2026-09-23",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 345.07,
       "quantidade": 1
     },
     {
-      "id": 120,
-      "data": "2026-09-15",
-      "produto": "Caderno",
+      "id": 80,
+      "data": "2026-09-23",
+      "produto": "Caneta",
       "categoria": "Papelaria",
-      "valor": 251.62,
+      "valor": 23.8,
       "quantidade": 2
     },
     {
-      "id": 115,
-      "data": "2026-09-15",
+      "id": 66,
+      "data": "2026-09-23",
       "produto": "Caderno",
       "categoria": "Papelaria",
-      "valor": 348.22,
+      "valor": 920.02,
+      "quantidade": 2
+    },
+    {
+      "id": 61,
+      "data": "2026-09-23",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 985.5,
+      "quantidade": 5
+    },
+    {
+      "id": 18,
+      "data": "2026-09-23",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 520.71,
+      "quantidade": 3
+    },
+    {
+      "id": 198,
+      "data": "2026-09-22",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 244.73,
       "quantidade": 1
     },
     {
-      "id": 97,
-      "data": "2026-09-15",
+      "id": 159,
+      "data": "2026-09-22",
       "produto": "Caderno",
       "categoria": "Papelaria",
-      "valor": 325.2,
+      "valor": 1857.3500000000001,
+      "quantidade": 5
+    },
+    {
+      "id": 112,
+      "data": "2026-09-22",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 603.6899999999999,
+      "quantidade": 3
+    },
+    {
+      "id": 101,
+      "data": "2026-09-22",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 204.20999999999998,
+      "quantidade": 3
+    },
+    {
+      "id": 86,
+      "data": "2026-09-22",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 1032.75,
+      "quantidade": 5
+    },
+    {
+      "id": 53,
+      "data": "2026-09-22",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 485.9,
+      "quantidade": 2
+    },
+    {
+      "id": 25,
+      "data": "2026-09-22",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 434.93999999999994,
+      "quantidade": 3
+    },
+    {
+      "id": 156,
+      "data": "2026-09-21",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 1573.7,
+      "quantidade": 5
+    },
+    {
+      "id": 119,
+      "data": "2026-09-21",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 806.06,
+      "quantidade": 2
+    },
+    {
+      "id": 118,
+      "data": "2026-09-21",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 1495.2,
+      "quantidade": 4
+    },
+    {
+      "id": 105,
+      "data": "2026-09-21",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 1471.8000000000002,
+      "quantidade": 3
+    },
+    {
+      "id": 97,
+      "data": "2026-09-21",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 233.0,
+      "quantidade": 1
+    },
+    {
+      "id": 71,
+      "data": "2026-09-21",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 2043.0,
+      "quantidade": 5
+    },
+    {
+      "id": 37,
+      "data": "2026-09-21",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 1793.16,
+      "quantidade": 4
+    },
+    {
+      "id": 191,
+      "data": "2026-09-20",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 1719.7,
+      "quantidade": 5
+    },
+    {
+      "id": 186,
+      "data": "2026-09-20",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 148.37,
+      "quantidade": 1
+    },
+    {
+      "id": 162,
+      "data": "2026-09-20",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 26.95,
+      "quantidade": 1
+    },
+    {
+      "id": 100,
+      "data": "2026-09-20",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 1830.8,
+      "quantidade": 4
+    },
+    {
+      "id": 95,
+      "data": "2026-09-20",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 365.46,
       "quantidade": 2
     },
     {
       "id": 28,
-      "data": "2026-09-15",
+      "data": "2026-09-20",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 146.08,
+      "quantidade": 1
+    },
+    {
+      "id": 11,
+      "data": "2026-09-20",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 2129.9,
+      "quantidade": 5
+    },
+    {
+      "id": 183,
+      "data": "2026-09-19",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 814.86,
+      "quantidade": 2
+    },
+    {
+      "id": 163,
+      "data": "2026-09-19",
       "produto": "Caderno",
       "categoria": "Papelaria",
-      "valor": 498.75,
+      "valor": 763.6800000000001,
+      "quantidade": 3
+    },
+    {
+      "id": 127,
+      "data": "2026-09-19",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 2114.45,
+      "quantidade": 5
+    },
+    {
+      "id": 90,
+      "data": "2026-09-19",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 1600.8000000000002,
+      "quantidade": 5
+    },
+    {
+      "id": 64,
+      "data": "2026-09-19",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 818.0500000000001,
+      "quantidade": 5
+    },
+    {
+      "id": 47,
+      "data": "2026-09-19",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 1394.04,
+      "quantidade": 4
+    },
+    {
+      "id": 24,
+      "data": "2026-09-19",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 874.77,
       "quantidade": 3
     },
     {
       "id": 21,
-      "data": "2026-09-15",
+      "data": "2026-09-19",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 637.32,
+      "quantidade": 4
+    },
+    {
+      "id": 12,
+      "data": "2026-09-19",
       "produto": "Cadeira",
       "categoria": "Móveis",
-      "valor": 77.42999999999999,
+      "valor": 631.47,
       "quantidade": 3
+    },
+    {
+      "id": 6,
+      "data": "2026-09-19",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 414.61,
+      "quantidade": 1
+    },
+    {
+      "id": 2,
+      "data": "2026-09-19",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 665.4,
+      "quantidade": 2
+    },
+    {
+      "id": 185,
+      "data": "2026-09-18",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 1037.36,
+      "quantidade": 4
+    },
+    {
+      "id": 168,
+      "data": "2026-09-18",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 2179.5,
+      "quantidade": 5
+    },
+    {
+      "id": 136,
+      "data": "2026-09-18",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 1306.8,
+      "quantidade": 4
+    },
+    {
+      "id": 131,
+      "data": "2026-09-18",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 308.7,
+      "quantidade": 2
+    },
+    {
+      "id": 120,
+      "data": "2026-09-18",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 898.2,
+      "quantidade": 4
+    },
+    {
+      "id": 111,
+      "data": "2026-09-18",
+      "produto": "Caneta",
+      "categoria": "Papelaria",
+      "valor": 320.94,
+      "quantidade": 3
+    },
+    {
+      "id": 85,
+      "data": "2026-09-18",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 2177.15,
+      "quantidade": 5
+    },
+    {
+      "id": 70,
+      "data": "2026-09-18",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 763.6,
+      "quantidade": 5
+    },
+    {
+      "id": 52,
+      "data": "2026-09-18",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 1520.9,
+      "quantidade": 5
+    },
+    {
+      "id": 178,
+      "data": "2026-09-17",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 1170.0,
+      "quantidade": 5
+    },
+    {
+      "id": 176,
+      "data": "2026-09-17",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 302.52,
+      "quantidade": 2
+    },
+    {
+      "id": 170,
+      "data": "2026-09-17",
+      "produto": "Mesa",
+      "categoria": "Móveis",
+      "valor": 455.2,
+      "quantidade": 4
+    },
+    {
+      "id": 155,
+      "data": "2026-09-17",
+      "produto": "Notebook",
+      "categoria": "Eletrônicos",
+      "valor": 68.89,
+      "quantidade": 1
+    },
+    {
+      "id": 109,
+      "data": "2026-09-17",
+      "produto": "Cadeira",
+      "categoria": "Móveis",
+      "valor": 537.32,
+      "quantidade": 4
+    },
+    {
+      "id": 169,
+      "data": "2026-09-16",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 833.9,
+      "quantidade": 2
+    },
+    {
+      "id": 153,
+      "data": "2026-09-16",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 142.71,
+      "quantidade": 3
+    },
+    {
+      "id": 150,
+      "data": "2026-09-16",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 954.0,
+      "quantidade": 4
+    },
+    {
+      "id": 134,
+      "data": "2026-09-16",
+      "produto": "Caderno",
+      "categoria": "Papelaria",
+      "valor": 885.58,
+      "quantidade": 2
+    },
+    {
+      "id": 132,
+      "data": "2026-09-16",
+      "produto": "Mouse",
+      "categoria": "Eletrônicos",
+      "valor": 1571.55,
+      "quantidade": 5
     }
   ]
 }
